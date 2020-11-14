@@ -1,0 +1,91 @@
+html{
+    font-size: 62.5%; /* Reset para REMS - 62.5% = 10px de 16px */
+    
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+/* Global (codigos que se reutilizan) */
+img{
+    max-width: 100%;
+}
+.contenedor{
+    max-width: 120rem; /** = 1200px**/
+    margin: 0 6rem;
+}
+.contenedor a{
+    color: grey;
+    text-decoration: none;
+    text-align: end ;
+}
+.contenedor a:hover{
+    color: black;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+h4{
+    font-size: 1.8rem;
+}
+/* Utilidades */
+
+/* Botones */
+
+/* Header inicio*/
+.site-header.inicio{
+    background-image: url(../IMG/HF/manga3.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+    min-height: 30rem;
+
+}
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contenido-header h1{
+    font-family: 'Sansita Swashed', cursive;
+    margin: 0 7rem ;
+    max-width: 60rem;
+}
+.barra{
+    display: flex;
+    padding-top: 3rem; 
+    justify-content:space-between;
+    /* align-items: flex-end; */ 
+}
+
+/* Navegacion */
+/* La clase padre es .navegacion que almacena a los elementos hijos que son (a) en el <Nav> */
+.navegacion a{
+    color: #ff6347;
+    text-decoration: none;
+    font-size: 1.8rem; /** 18px**/
+    margin-right: 2rem;
+}
+.navegacion a:hover{
+    color: gray;
+}
+.navegacion a:last-of-type{
+    margin: 0;
+
+/** :last-of-type es un seudo-selector 
+para selecionar un ultimo elemento, esta
+:first-of-type que seleciona el primer
+elemento, (hover) es el seudo selector mas
+comun **/
+}
+/* iconos nosotros */
